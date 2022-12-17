@@ -1,0 +1,5 @@
+[Added Associations]
+application/vnd.appimage=net.lutris.Lutris.desktop;
+
+[Default Applications]
+x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop

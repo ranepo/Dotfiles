@@ -1,0 +1,20 @@
+game:
+  exe: /home/pode/Games/old-school-runescape/RuneLite.AppImage
+game_slug: old-school-runescape
+name: Old School RuneScape
+requires: null
+script:
+  custom-name: Old School RuneScape
+  files:
+  - runelite: https://github.com/runelite/launcher/releases/download/2.2.0/RuneLite.AppImage
+  game:
+    exe: $GAMEDIR/RuneLite.AppImage
+  installer:
+  - chmodx: runelite
+  - move:
+      dst: $GAMEDIR
+      src: runelite
+slug: old-school-runescape-official-client-vers
+variables: {}
+version: Official Client Version 2.2.0
+year: 2007
