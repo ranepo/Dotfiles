@@ -1,2 +1,2 @@
 # Dotfiles
-Drippy Dots
+My arch linux dotfiles
